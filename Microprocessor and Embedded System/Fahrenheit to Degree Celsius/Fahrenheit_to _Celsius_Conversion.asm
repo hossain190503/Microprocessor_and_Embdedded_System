@@ -1,0 +1,6 @@
+MOV AX, 59D      ; Load AX with Fahrenheit value (59 degrees) [3]
+SUB AX, 32D      ; AX = Fahrenheit - 32 [3]
+MOV CX, 5D       ; Load 5 into CX for multiplication [3]
+MUL CX           ; AX = (Fahrenheit - 32) * 5 [3]
+MOV BX, 9D       ; Load 9 into BX for division [3]
+DIV BX           ; AX = ((Fahrenheit - 32) * 5) / 9 (Final Celsius result) [3]
