@@ -37,9 +37,9 @@ Data is accessed and stored in memory using **segment and offset addresses**. Th
 * **Indirect Addressing**
 * **Indexed Addressing**
 
----
+### Source code and Output
 
-
-MOV AX, [HighWord1]
-ADC AX, [HighWord2]  ; Add upper 16 bits + Carry
-MOV [ResultHigh], AX
+![](https://github.com/hossain190503/Microprocessor_and_Embdedded_System/blob/main/Microprocessor%20and%20Embedded%20System/32%20bit%20Addition%20&%20Subtraction%20Using%20Memory/img/3_1_inp.png?raw=true)
+![](https://github.com/hossain190503/Microprocessor_and_Embdedded_System/blob/main/Microprocessor%20and%20Embedded%20System/32%20bit%20Addition%20&%20Subtraction%20Using%20Memory/img/3_2_inp.png?raw=true)
+![](https://github.com/hossain190503/Microprocessor_and_Embdedded_System/blob/main/Microprocessor%20and%20Embedded%20System/32%20bit%20Addition%20&%20Subtraction%20Using%20Memory/img/3_3_out.png?raw=true)
+![](https://github.com/hossain190503/Microprocessor_and_Embdedded_System/blob/main/Microprocessor%20and%20Embedded%20System/32%20bit%20Addition%20&%20Subtraction%20Using%20Memory/img/3_4_out.png?raw=true)
