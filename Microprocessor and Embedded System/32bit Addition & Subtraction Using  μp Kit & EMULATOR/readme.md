@@ -6,15 +6,15 @@ A microprocessor is a computer processor where data processing logic and control
 #### 32-bit Arithmetic Logic
 Because the 8086 is a 16-bit architecture, 32-bit operations are performed by splitting the data into lower and upper 16-bit words. The process relies on the management of the Carry and Borrow flags to ensure accurate calculation across these words.
 1. 32-bit Addition
-Step 1: The lower 16 bits of the numbers are added using the ADD instruction.
 
-Step 2: If the addition of the lower bits generates a carry, the Carry Flag is set.
+- The lower 16 bits of the numbers are added using the ADD instruction.
 
-Step 3: The upper 16 bits are added using the ADC (Add with Carry) instruction. This instruction adds the two operands plus the status of the Carry Flag, ensuring the overflow from the lower bits is included in the final result.
+- If the addition of the lower bits generates a carry, the Carry Flag is set.
+
+- The upper 16 bits are added using the ADC (Add with Carry) instruction. This instruction adds the two operands plus the status of the Carry Flag, ensuring the overflow from the lower bits is included in the final result.
 
 2. 32-bit Subtraction
-Step 1: The lower 16 bits are subtracted using the SUB instruction.
 
-Step 2: If the lower bits require a borrow, the Borrow Flag is set.
-
-Step 3: The upper 16 bits are processed using the SBB (Subtract with Borrow) instruction. This instruction subtracts the source operand and the Borrow Flag from the accumulator, properly accounting for the borrow requirement from the previous step.
+- The lower 16 bits are subtracted using the SUB instruction.
+- If the lower bits require a borrow, the Borrow Flag is set.
+- The upper 16 bits are processed using the SBB (Subtract with Borrow) instruction. This instruction subtracts the source operand and the Borrow Flag from the accumulator, properly accounting for the borrow requirement from the previous step.
