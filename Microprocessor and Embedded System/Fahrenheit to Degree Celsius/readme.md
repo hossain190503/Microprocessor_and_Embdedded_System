@@ -43,3 +43,8 @@ The assembly implementation follows these sequential steps:
 
 ## Software Requirements
 * **EMU 8086**: Microprocessor Emulator for writing, compiling, and stepping through the assembly code.
+
+## Source code and Output
+
+![](https://github.com/hossain190503/Microprocessor_and_Embdedded_System/blob/main/Microprocessor%20and%20Embedded%20System/Fahrenheit%20to%20Degree%20Celsius/img/5_1.png?raw=true)
+![](https://github.com/hossain190503/Microprocessor_and_Embdedded_System/blob/main/Microprocessor%20and%20Embedded%20System/Fahrenheit%20to%20Degree%20Celsius/img/5_2.png?raw=true)
